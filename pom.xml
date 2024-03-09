@@ -19,9 +19,9 @@
 
 
     <modules>
-        <module>msvc-clientes/msvc-clientes
-        </module>
-        <module> msvc-cursos/msvc-cursos</module>
+        <module>msvc-clientes/msvc-clientes</module>
+        <module>msvc-cursos/msvc-cursos</module>
+        <module>msvc-gestion-servicios</module>
     </modules>
 
     <properties>
