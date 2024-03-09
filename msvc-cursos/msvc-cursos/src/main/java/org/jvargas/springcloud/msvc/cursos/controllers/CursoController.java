@@ -65,9 +65,4 @@ public class CursoController {
         }
     }
 
-    @PutMapping
-    public ResponseEntity<?> asignarCliente(@RequestBody Cliente cliente, @PathVariable Long id){
-    
-    }
-
 }
