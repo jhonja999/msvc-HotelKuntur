@@ -11,17 +11,17 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>org.jvargas.springcloud.msvc</groupId>
-    <artifactId>cursointegracion</artifactId>
+    <groupId>org.hotelkunturwasi.springcloud.msvc</groupId>
+    <artifactId>hotelkunturwasi</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
-
     <modules>
-        <module>msvc-clientes/msvc-clientes</module>
-        <module>msvc-cursos/msvc-cursos</module>
+        <module>msvc-clientes</module>
         <module>msvc-gestion-servicios</module>
+        <module>msvc-pagos</module>
+        <module>msvc_reservas</module>
     </modules>
 
     <properties>
@@ -29,6 +29,5 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
 
 </project>

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name="msvc-clientes", url="localhost:8002/api/cliente")
+@FeignClient(name="msvc-clientes", url="localhost:8001/api/cliente")
 public interface ClienteClientRest {
     @GetMapping("/{id}")
     Cliente detalle(@PathVariable Long id);
